@@ -1,50 +1,14 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html>
-<head>
-<style>
-p {
-  color: white; 
-  font: 1.3rem Inconsolata, monospace;
-  font-size: 24px; 
-  text-shadow: 0 0 5px #C8C8C8;
-}
-body {
-  overflow: hidden;
-  background-color: black;
-  background-image: radial-gradient(rgba(0, 150, 0, 0.75), black 120%);
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-attachment: fixed;
-  background-size: cover;
-  padding: 2rem;
-}
-body::after {
-  content: '';
-  position: fixed;
-  top: 0; left: 0;
-  width: 100%; height: 100%;
-  background-image: repeating-linear-gradient(
-    0deg,
-    rgba(0, 0, 0, 0.15),
-    rgba(0, 0, 0, 0.15) 1px,
-    transparent 1px,
-    transparent 2px);
-  pointer-events: none;
-}
-</style>
-<title>New Tab</title>
-</head>
-<body>
-<p>Welcome to DOME-OS 1.3.37</p>
-<p>Today's date is: <span id="date"></span></p>
-<p>The current time is: <span id="time"></span></p>
-
-<script>
-var dt = new Date();
-document.getElementById("date").innerHTML = (("0"+(dt.getMonth()+1)).slice(-2)) +"/"+ (("0"+dt.getDate()).slice(-2)) +"/"+ (dt.getFullYear());
-var tm = new Date();
-document.getElementById("time").innerHTML = tm.toLocaleTimeString();
-</script>
-
-</body>
+	<head>
+		<link rel="stylesheet" href="styles.css">
+	</head>
+	<body>
+		<h1>Alex's Projects</h1>
+		<p>Yeehaw.</p>
+		<button onclick="document.location='alex_projects/1.html'">Untitled</button>
+		<button onclick="document.location='alex_projects/2.html'">Untitled2</button>
+		<br>
+		<button onclick="document.location='index.html'">Back</button>
+	</body>
 </html> 
