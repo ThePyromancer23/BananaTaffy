@@ -1,10 +1,10 @@
 body {
-	background-color: #2d6c80;
+	background-color: #7f9aad;
 }
 
 .textbox {
-	background-color: #20786b;
-	border-color: #b58aff;
+	background-color: lightblue;
+	border-color: #0a4b7a;
 	border-width: 2px;
 	border-style: solid;
 	border-radius: 10px;
@@ -14,7 +14,7 @@ body {
 .button  {
 	font-size: 14px;
 	border-radius: 6px;
-	background-color: green;
+	background-color: #388a82;
 	color: black;
 	border: 2px solid black;
 	padding: 10px;
@@ -23,5 +23,5 @@ body {
 
 .button:hover {
 	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
-	background-color: #6acc7c;
+	background-color: #3cc2b5;
 }
