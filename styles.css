@@ -1,10 +1,10 @@
 body {
-	background-color: #7f9aad;
+	background-color: #ade6bb;
 }
 
 .textbox {
-	background-color: lightblue;
-	border-color: #0a4b7a;
+	background-color: #afeeee;
+	border-color: #afcfee;
 	border-width: 2px;
 	border-style: solid;
 	border-radius: 10px;
@@ -14,7 +14,7 @@ body {
 .button  {
 	font-size: 14px;
 	border-radius: 6px;
-	background-color: #388a82;
+	background-color: #76d5cb;
 	color: black;
 	border: 2px solid black;
 	padding: 10px;
