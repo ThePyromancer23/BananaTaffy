@@ -1,4 +1,8 @@
 body {
+	background-color: blue;
+}
+
+.textbox {
 	background-color: lightblue;
 	border-color: purple;
 	border-width: 2px;
