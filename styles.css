@@ -9,6 +9,7 @@ body {
 	border-style: solid;
 	border-radius: 10px;
 	font-family: inconsolata, monospace;
+	width: 50%;
 }
 
 .button  {
