@@ -1,0 +1,54 @@
+/* Provides padding at top of the webpage. */
+.pageblock {
+	height: 50px;
+	width: 100%;
+}
+
+/* Defines columns */
+.column {
+	float: left;
+	height: 1000px;
+}
+.column.side {
+	width: 25%;
+}
+.column.middle {
+	width: 75%;
+}
+
+/* Clears float for footer element */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+body {
+	background-color: lightblue;
+}
+
+.main {
+	width: 960px;
+	margin: auto;
+}
+
+#title-bar {
+	width: 250px;
+	height: 150px;
+}
+
+#location-bar {
+float: right;
+width: 650px;
+height: 130px;
+padding: 10px;
+margin-bottom: 0px;
+position: relative;
+}
+
+#content {
+	width: 650px;
+	height: 600px;
+	float: right;
+	margin-top: 20px;
+}
