@@ -18,13 +18,13 @@
 
 /* Clears float for footer element */
 .row:after {
-  content: "";
-  display: table;
-  clear: both;
+	content: "";
+	display: table;
+	clear: both;
 }
 
 body {
-	background-color: lightblue;
+	background-color: #A5ABBB;
 }
 
 .main {
@@ -32,23 +32,67 @@ body {
 	margin: auto;
 }
 
+/* Left */
 #title-bar {
-	width: 250px;
+	width: 240px;
 	height: 150px;
+	position: relative;
 }
 
+.title {
+	text-align: center;
+	line-height: 150px;
+	border-radius: 8px;
+	border-color: white;
+	border-style: solid;
+	border-width: 2px;
+	box-shadow: 2px 3px 6px rgba(0, 0, 0, 0.4);
+	font-size: 1.3em;
+	font-weight: bold;
+	color: rgb(218, 239, 227);
+	text-shadow: rgba(0, 0, 0, 0.8) 0px 0px 8px;
+	background-color: #324A4A;
+}
+
+#sidebar {
+	width: 244px;
+	height: 620px;
+	margin-top: 20px;
+	position: relative;
+}
+
+/*  Right */
 #location-bar {
-float: right;
-width: 650px;
-height: 130px;
-padding: 10px;
-margin-bottom: 0px;
-position: relative;
+	float: right;
+	width: 684px;
+	height: 134px;
+	padding: 10px;
+	margin-bottom: 0px;
+	position: relative;
+}
+
+.location {
+	border-radius: 4px;
+	box-shadow: 2px 3px 6px rgba(0, 0, 0, 0.4);
+	font-size: 1.3em;
+	font-weight: bold;
+	color: black;
+	line-height: 210px;
+	background: rgb(171, 198, 198) url("images/digitaleffect.gif") repeat scroll 0% 0%;
 }
 
 #content {
-	width: 650px;
-	height: 600px;
 	float: right;
+	width: 684px;
+	height: 600px;
+	padding: 10px;
 	margin-top: 20px;
+	position: relative;
 }
+
+.content {
+	background-color: #3C5757;
+	border-radius: 8px;
+	box-shadow: 2px 3px 6px rgba(0, 0, 0, 0.4);
+}
+
