@@ -1,98 +1,100 @@
-/* Provides padding at top of the webpage. */
+/* Provides break at top of the webpage. */
 .pageblock {
 	height: 50px;
 	width: 100%;
 }
 
-/* Defines columns */
-.column {
-	float: left;
-	height: 1000px;
-}
-.column.side {
-	width: 25%;
-}
-.column.middle {
-	width: 75%;
-}
-
-/* Clears float for footer element */
-.row:after {
-	content: "";
-	display: table;
-	clear: both;
-}
-
-body {
-	background-color: #A5ABBB;
-}
-
+/* Main options for whole site */
 .main {
 	width: 960px;
 	margin: auto;
 }
 
-/* Left */
-#title-bar {
-	width: 240px;
-	height: 150px;
-	position: relative;
+/* Settings */
+.boxshadow {
+	box-shadow: 2px 3px 6px rgba(0, 0, 0, 0.4);
 }
 
-.title {
-	text-align: center;
-	line-height: 150px;
+body {
+	font-family: arial;
+	background-color: #A5ABBB;
+}
+
+h1 {
+	font-size: 1.3em;
+	font-weight:bold;
+}
+
+/* Header */
+
+#title-bar {
+	float: left;
+	width: 248px;
+	height: 148px;
+	position: relative;
 	border-radius: 8px;
 	border-color: white;
 	border-style: solid;
 	border-width: 2px;
-	box-shadow: 2px 3px 6px rgba(0, 0, 0, 0.4);
-	font-size: 1.3em;
-	font-weight: bold;
-	color: rgb(218, 239, 227);
-	text-shadow: rgba(0, 0, 0, 0.8) 0px 0px 8px;
-	background-color: #324A4A;
+	background: #324A4A;
 }
 
-#sidebar {
-	width: 244px;
-	height: 620px;
-	margin-top: 20px;
-	position: relative;
-}
-
-/*  Right */
 #location-bar {
-	float: right;
-	width: 684px;
-	height: 134px;
-	padding: 10px;
-	margin-bottom: 0px;
+	margin-left: 32px;
+	float: left;
+	width: 675px;
+	height: 150px;
 	position: relative;
-}
-
-.location {
 	border-radius: 4px;
-	box-shadow: 2px 3px 6px rgba(0, 0, 0, 0.4);
-	font-size: 1.3em;
-	font-weight: bold;
-	color: black;
-	line-height: 210px;
 	background: rgb(171, 198, 198) url("images/digitaleffect.gif") repeat scroll 0% 0%;
 }
 
-#content {
-	float: right;
-	width: 684px;
-	height: 600px;
-	padding: 10px;
-	margin-top: 20px;
-	position: relative;
+.title {
+	margin-top: 60px;
+	text-align: center;
+	text-shadow: rgba(0, 0, 0, 0.8) 0px 0px 8px;
+	color: rgb(218, 239, 227);
 }
 
-.content {
+.location {
+	margin-left: 20px;
+	margin-top: 100px;
+	color: black;
+}
+
+/* Main Stuff */
+
+#game {
+	clear: left;
+}
+
+.game {
 	background-color: #3C5757;
+	margin-top: 25px;
 	border-radius: 8px;
-	box-shadow: 2px 3px 6px rgba(0, 0, 0, 0.4);
+	position: relative;
+	float: left
 }
 
+#sidebar-container {
+	width: 250px;
+	height: auto;
+}
+
+#sidebar {
+	width: 250px;
+	height: 300px;
+
+}
+
+#content {
+	margin-left: 32px;
+	width: 675px;
+	height: 620px;
+	background-color: #3C5757;
+	margin-top: 25px;
+	border-radius: 8px;
+	position: relative;
+	float: middle;
+
+}
