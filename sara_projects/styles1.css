@@ -127,6 +127,7 @@ h1 {
 }
 
 #branch1 {
+	margin-top: 15px;
 	background-color:rgba(188,218,218,0.35);
 	width: 635px;
 	height: 104px;
