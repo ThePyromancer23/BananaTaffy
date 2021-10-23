@@ -23,6 +23,7 @@
 body {
 	font-family: arial;
 	background-color: #A5ABBB;
+	color: #daefe3;
 }
 
 h1 {
@@ -109,6 +110,11 @@ h1 {
 
 /*Storylet*/
 
+#intro {
+	width: 640px;
+	height: 156px;
+}
+
 #imgcontainer {
 	padding: 8px;
 	border-radius: 10px 0 10px 0;
@@ -120,10 +126,9 @@ h1 {
 	background: #CFE5E8
 }
 
-
-
 #textbox {
-	float: right;
+	font-weight: bold;
+	margin-bottom: 0.5em;
 }
 
 #branch1 {
@@ -133,3 +138,5 @@ h1 {
 	height: 104px;
 	border-radius: 10px 10px 10px 10px;
 }
+
+/*image+textbox+button*/
