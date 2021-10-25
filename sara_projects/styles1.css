@@ -43,6 +43,7 @@ h1 {
 	border-style: solid;
 	border-width: 2px;
 	background: #324A4A;
+	margin-bottom: 25px;
 }
 
 #location-bar {
@@ -84,7 +85,7 @@ h1 {
 #sidebar-container {
 	width: 250px;
 	height: 675px;
-	float: left;
+	/*float: left;*/
 }
 
 #sidebar {
@@ -105,14 +106,21 @@ h1 {
 	width: 635px;
 	height: 610px;
 	margin-top: 25px;
-	float: middle;
 }
 
 /*Storylet*/
 
 #intro {
 	width: 640px;
-	height: 156px;
+	margin-bottom: 15px;
+	display: block;
+	position: relative;
+}
+
+.storylet-column1 {
+	float: left;
+	text-align: right;
+	margin: 0 10px 0.5em 0;
 }
 
 #imgcontainer {
@@ -126,9 +134,18 @@ h1 {
 	background: #CFE5E8
 }
 
-#textbox {
-	font-weight: bold;
+.storylet-column2 {
+	width: 645px;
 	margin-bottom: 0.5em;
+}
+
+#storytitle {
+	height: auto;
+	margin-left: 10px;
+}
+
+#storydesc {
+	height: auto;
 }
 
 #branch1 {
