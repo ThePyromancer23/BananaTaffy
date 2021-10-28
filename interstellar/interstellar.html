@@ -1,7 +1,20 @@
 <!DOCTYPE html>
 <html>
 <head>
-<link rel="stylesheet" href="styles1.css">
+	<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+	<script src="https://www.jsviews.com/download/jsrender.min.js"></script>
+	<script src="templates.js"></script>
+	<script src="storylet.json"></script>
+	<link rel="stylesheet" href="styles1.css">
+	<script type="text/javascript">
+		"use strict";
+
+
+		function showStory(story) {
+		  var html = $.templates.storylet.render(story);
+		  $("#story").html(html);
+		}
+	</script>
 </head>
 <body>
 <div class="pageblock"></div>
@@ -29,21 +42,7 @@
 	</div>
   <div>
 		<div id="story" class= "boxshadow game">
-			<div class="storylet">
-				<div>
-					<div id="imgcontainer" class="boxshadow">
-							<center><img src= "images/lock.png" class ="digitaleffect"></center>
-					</div>
-				</div>
-				<div>
-					<div id="storytext">
-						<h1>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque finibus odio ac ligula bibendum</h1>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque finibus odio ac ligula bibendum, vel sagittis ex fermentum. Nulla egestas eleifend justo nec congue. Ut et nunc egestas nunc eleifend feugiat. Maecenas ut luctus diam. In eget posuere nisi, id viverra velit. Suspendisse ornare, velit tempus feugiat venenatis, felis nunc dapibus dolor, placerat euismod justo quam ut metus. Sed faucibus ex eget nunc ultrices malesuada. Maecenas arcu arcu, ultricies vel felis sit amet, pretium mattis enim. Morbi varius, felis quis bibendum convallis, dolor ex consectetur libero, ac laoreet sem lacus ut tortor. Fusce in faucibus neque. In aliquet placerat nibh non sollicitudin. Curabitur tincidunt est eget imperdiet ultrices. </p>
-					</div>
-				</div>
-			</div>
-			<div id="branch1">
-			</div>
+		<div id="branch"></div>
 		</div>
 	</div>
 </div>

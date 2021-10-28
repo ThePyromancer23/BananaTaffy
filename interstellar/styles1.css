@@ -112,10 +112,18 @@ grid-template-rows: 175px auto;
 	background: #CFE5E8
 }
 
-#branch1 {
+/* Branch */
+
+.branch {
+	display: grid;
+	grid-template-columns: 
+}
+
+#branch {
 	margin-top: 15px;
+	padding: 10px;
 	background-color:rgba(188,218,218,0.35);
-	width: 635px;
-	height: 104px;
+	width: 615px;
+	height: 125px;
 	border-radius: 10px 10px 10px 10px;
 }
