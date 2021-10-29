@@ -14,7 +14,7 @@
 		}
 	</script>
 </head>
-<body>
+<body onload="showStory(data);">
 <div class="pageblock"></div>
 <div class="wrapper">
 	<div>
@@ -40,27 +40,7 @@
 	</div>
   <div>
 		<div id="story" class= "boxshadow game">
-			<div id="branch">
-				<div class="branch-top">
-					<div class="branch-margin">
-							<img width="40" src="images/lock.png" class="digitaleffect boxshadow">
-					</div>
-					<div>
-							<div id="storytext">
-								<h2  class="branch-margin">{{:Title}}</h2>
-								<p>{{:Desc}}</p>
-							</div>
-					</div>
-				</div>
-				<hr class="branch-divider">
-				<div class="branch-footer">
-					<div></div>
-					<div class="button-container">
-						<button class="button">{{:ButtonText}}</button>
-					</div>
-				</div>
-			</div>
-	</div>
+		</div>
 </div>
 </body>
 </html>

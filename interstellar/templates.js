@@ -1,3 +1,5 @@
 $.templates({
-  storylet: '<div class="storylet"><div><div id="imgcontainer" class="boxshadow"><center><img src= "{{:Img}}" class ="digitaleffect"></center></div></div><div><div id="storytext"><h1>{{:Title}}</h1><p style="top-margin: 5px;">{{:Desc}}</p></div></div></div>'
+  storylet: '<div class="storylet"><div><div id="imgcontainer" class="boxshadow"><center><img src= "{{:Img}}" class ="digitaleffect"></center></div></div><div><div id="storytext"><h1>{{:Title}}</h1><p style="top-margin: 5px;">{{:Desc}}</p></div></div></div> {{for Branches tmpl="branch" /}}{{include tmpl="perhapsnot" /}}',
+  branch: '<div id="branch"><div class="branch-top"><div class="branch-margin"><img width="40" src="{{:Img}}" class="digitaleffect boxshadow"></div><div><div id="storytext"><h2 class="branch-margin">{{:Title}}</h2><p>{{:Desc}}</p></div></div></div><hr class="branch-divider"><div class="branch-footer"><div></div><div class="button-container"><button class="button">{{:ButtonText}}</button></div></div></div>',
+  perhapsnot: '<button class="button">perhaps not</button>'
 });

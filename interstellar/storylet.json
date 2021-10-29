@@ -1,1 +1,1 @@
-data = {"Title":"Test Title","Img":"images/lock.png","Desc":"Test desc."};
+data = {"Title":"Test Title","Img":"images/lock.png","Desc":"Test desc.","Branches":[{"Id:":"1","Title":"Branch1 Title","Img":"images/lock.png","Desc":"Branch1 Description","ButtonText":"Button1"},{"Id:":"2","Title":"Branch2 Title","Img":"images/lock.png","Desc":"Branch2 Description","ButtonText":"Button2"}]};

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<!-- To run the current sample code in your own environment, copy this to an html page. -->
+
+<html>
+<head>
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+  <script src="https://www.jsviews.com/download/jsrender.min.js"></script>
+  <script src="templates.js"></script>
+  <script src="storylet.js"></script>
+</head>
+<body>
+
+<div id="story"></div>
+
+<script>
+"use strict";
+
+
+function showStory(story) {
+  var html = $.templates.storylet.render(story);
+  $("#story").html(html);
+}
+
+showStory(data);
+</script>
+
+</body>
+</html>
