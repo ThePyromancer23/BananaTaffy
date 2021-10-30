@@ -96,7 +96,7 @@ grid-template-rows: 175px auto;
 #story {
 	padding: 20px;
 	width: 635px;
-	height: 610px;
+	height: auto;
 }
 
 /* Storylet */
